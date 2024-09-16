@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illustrations</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">My Illustrations</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Artwork 1 -->
+        <div class="group relative">
+          <img src="../art1.png" class="w-full h-64 object-cover" alt="Artwork 1">
+          <div class="absolute inset-0 bg-pink-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+          <a href="../art1.png" class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            View Full
+          </a>
+        </div>
+        <!-- Artwork 2 -->
+        <div class="group relative">
+          <img src="../art2.png" class="w-full h-64 object-cover" alt="Artwork 2">
+          <div class="absolute inset-0 bg-pink-500 opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+          <a href="../art2.png" class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            View Full
+          </a>
+        </div>
+        <!-- Add more artworks similarly -->
+      </div>
+    </div>
+  </section>
+</body>
+</html>
